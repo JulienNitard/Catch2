@@ -110,8 +110,8 @@ def filterLine(line, isCompact):
         line = lineNumberParser.sub(" ", line)
 
     if isCompact:
-        line = line.replace(': FAILED:', ': failed:')
-        line = line.replace(': PASSED:', ': passed:')
+        line = line.replace(': FAILED', ': failed:')
+        line = line.replace(': PASSED', ': passed:')
         
     # strip Catch version number
     line = versionParser.sub("<version>", line)
