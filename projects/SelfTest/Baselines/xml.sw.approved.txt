@@ -6206,15 +6206,7 @@ Message from section two
             39 == 39
           </Expanded>
         </Expression>
-        <Expression success="true" type="REQUIRE" filename="projects/<exe-name>/IntrospectiveTests/String.tests.cpp" >
-          <Original>
-            simpleu8.numberOfCharacters() == 30
-          </Original>
-          <Expanded>
-            30 == 30
-          </Expanded>
-        </Expression>
-        <OverallResults successes="2" failures="0" expectedFailures="0"/>
+        <OverallResults successes="1" failures="0" expectedFailures="0"/>
       </Section>
       <OverallResult success="true"/>
     </TestCase>
@@ -9915,7 +9907,7 @@ loose text artifact
       </Section>
       <OverallResult success="true"/>
     </TestCase>
-    <OverallResults successes="935" failures="122" expectedFailures="21"/>
+    <OverallResults successes="934" failures="122" expectedFailures="21"/>
   </Group>
-  <OverallResults successes="935" failures="121" expectedFailures="21"/>
+  <OverallResults successes="934" failures="121" expectedFailures="21"/>
 </Catch>

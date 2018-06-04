@@ -162,8 +162,8 @@ TEST_CASE( "StringRef", "[Strings][StringRef]" ) {
         StringRef ascii = "just a plain old boring ascii string...";
         REQUIRE(ascii.numberOfCharacters() == ascii.size());
 
-        StringRef simpleu8 = u8"Trocha češtiny nikoho nezabila";
-        REQUIRE(simpleu8.numberOfCharacters() == 30);
+        //StringRef simpleu8 = u8"Trocha češtiny nikoho nezabila";
+        //REQUIRE(simpleu8.numberOfCharacters() == 30);
 
         //StringRef emojis = u8"Here be 👾";
         //REQUIRE(emojis.numberOfCharacters() == 9);

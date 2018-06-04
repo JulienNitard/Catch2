@@ -5433,12 +5433,6 @@ PASSED:
 with expansion:
   39 == 39
 
-String.tests.cpp:<line number>:
-PASSED:
-  REQUIRE( simpleu8.numberOfCharacters() == 30 )
-with expansion:
-  30 == 30
-
 -------------------------------------------------------------------------------
 Stringifying std::chrono::duration helpers
 -------------------------------------------------------------------------------
@@ -8973,5 +8967,5 @@ PASSED:
 
 ===============================================================================
 test cases:  207 | 141 passed |  62 failed |  4 failed as expected
-assertions: 1077 | 935 passed | 121 failed | 21 failed as expected
+assertions: 1076 | 934 passed | 121 failed | 21 failed as expected
 
