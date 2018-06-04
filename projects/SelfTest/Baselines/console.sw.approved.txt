@@ -5439,12 +5439,6 @@ PASSED:
 with expansion:
   30 == 30
 
-String.tests.cpp:<line number>:
-PASSED:
-  REQUIRE( emojis.numberOfCharacters() == 9 )
-with expansion:
-  9 == 9
-
 -------------------------------------------------------------------------------
 Stringifying std::chrono::duration helpers
 -------------------------------------------------------------------------------
@@ -8979,5 +8973,5 @@ PASSED:
 
 ===============================================================================
 test cases:  207 | 141 passed |  62 failed |  4 failed as expected
-assertions: 1078 | 936 passed | 121 failed | 21 failed as expected
+assertions: 1077 | 935 passed | 121 failed | 21 failed as expected
 

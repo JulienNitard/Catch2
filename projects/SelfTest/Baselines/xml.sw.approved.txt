@@ -6214,15 +6214,7 @@ Message from section two
             30 == 30
           </Expanded>
         </Expression>
-        <Expression success="true" type="REQUIRE" filename="projects/<exe-name>/IntrospectiveTests/String.tests.cpp" >
-          <Original>
-            emojis.numberOfCharacters() == 9
-          </Original>
-          <Expanded>
-            9 == 9
-          </Expanded>
-        </Expression>
-        <OverallResults successes="3" failures="0" expectedFailures="0"/>
+        <OverallResults successes="2" failures="0" expectedFailures="0"/>
       </Section>
       <OverallResult success="true"/>
     </TestCase>
@@ -9923,7 +9915,7 @@ loose text artifact
       </Section>
       <OverallResult success="true"/>
     </TestCase>
-    <OverallResults successes="936" failures="122" expectedFailures="21"/>
+    <OverallResults successes="935" failures="122" expectedFailures="21"/>
   </Group>
-  <OverallResults successes="936" failures="121" expectedFailures="21"/>
+  <OverallResults successes="935" failures="121" expectedFailures="21"/>
 </Catch>
